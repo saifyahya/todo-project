@@ -1,0 +1,80 @@
+body{
+font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    position: absolute;
+    right: 750px;
+    top: 50px; ;
+    font-weight: 1000;
+    font-size: xx-large;
+    font-style: italic;
+}
+img{
+    top: 0px;
+    left: 0px; 
+}
+nav{
+    background-color: azure;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid black;
+    width: auto;
+    height: auto;
+    text-transform: capitalize;
+}
+a{
+    text-decoration: none;
+}
+#main{
+    position:absolute; 
+    right: 650px;
+    top: 200px;
+}
+#last{
+    position: relative;
+    background-color:rgba(42, 161, 165, 0.755);
+    height: 80px;
+    top: 548px;
+    padding: 5px;
+    margin:5px;
+}
+footer{
+    color: black;
+    position: absolute;
+    padding: 5px;
+    margin: 5px;
+}
+table,th,td {
+    border: 1px solid black;
+    text-align: center;
+}
+th,td{
+    padding:15px;
+}
+.button{
+    padding: 10px;
+    margin:10px;
+}
+h2{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 400;
+font-size:x-large;
+font-style: italic;
+text-align: center;
+}
+header{
+    position: relative;
+}
+tr:hover {background-color: rgba(255, 127, 80, 0.121);}
+
+th{
+    background-color:rgba(42, 161, 165, 0.642);
+}
+#copysign{
+    color: white;
+}

@@ -1,0 +1,84 @@
+
+body{
+    height: 650px;
+    background-color: aliceblue;}
+header {
+    display: flex;
+    margin-top: 10px;
+}
+ header h1 {
+    margin: 20px;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    height: 100px;
+}
+h2{
+   font-size: 40px;
+   font-family: 'Oswald', sans-serif;
+}
+nav{
+    margin: 5px;
+    height:40px;
+    width: 800px;
+    margin-left: 600px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color:rgba(42, 161, 165, 0.755);
+    display: flex;
+    text-transform: capitalize;
+   justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color:black ;
+    font-weight:bold ;
+}
+a:hover{
+    font-size: large;}
+main{
+    flex-wrap: wrap;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    height: 465px;
+    align-content: center;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 20px;
+}
+table,th,td {
+  border: 1px solid black;
+  text-align: center;
+}
+.button{
+  padding: 10px;
+  margin:10px;
+}
+th,td{
+ padding:15px;
+}
+th{
+ background-color: whitesmoke;
+ font-weight:bold;  
+}
+td{
+    background-color: white;
+}
+main h2 {
+    margin-bottom: 40px;
+}
+#contact{
+    background-color:rgba(42, 161, 165, 0.642);
+    width: 300px;
+    height: 85px;
+    text-align: center;
+}
+
+footer{
+    background-color: white;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Oswald', sans-serif;
+}

@@ -1,0 +1,83 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+ header h1 {
+    margin: 10px;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+nav{
+    margin: 10px;
+    height:40px;
+    width: 800px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color:rgba(42, 161, 165, 0.755);
+    display: flex;
+    text-transform: capitalize;
+   justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color:black ;
+    font-weight:bold ; 
+}
+a:hover{
+    font-size: large;
+}
+main{
+    margin:10px ;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Noto Sans', sans-serif;
+}
+main h2{
+    margin: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px
+}
+fieldset{
+    margin-top: 20px;
+    font-size: large;
+}
+legend{
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+}
+
+#contact{
+    background-color:rgba(42, 161, 165, 0.642);
+    text-align: center;
+    padding: 2px;
+}
+    
+footer{
+    background-color: white;
+        align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Oswald', sans-serif;
+}
+input{
+    width: 300px;
+    height: 50px
+}
+textarea{
+    width: 300px;
+    height: 50px;
+     resize: none;
+    border: 1px solid black;
+}
+img {
+    border-radius: 50%;
+}
+.inline{
+    background-color: aliceblue;
+    padding: 10px;
+}
+    

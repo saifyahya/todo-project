@@ -1,10 +1,10 @@
 # todo-project
 
 ## index wireframe
-![indexwireframe](./Images/index%20wireframe.png)
+![indexwireframe](./assets/index%20wireframe.png)
 ---
 ## about wireframe
-![about wireframe](./Images/about%20wireframe.png)
+![about wireframe](./assets/about%20wireframe.png)
 ---
 ## class 3 outcomes:
 1. Learn about protocols and URL.

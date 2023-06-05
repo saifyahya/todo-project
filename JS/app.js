@@ -1,14 +1,12 @@
 let userName = prompt("Enter your name: ")
 
-let userGender = prompt("Enter your gender: ")
+let userGender = prompt("Enter your gender: male/female")
 
 let userAge = prompt("Enter your age: ")
 
 while (userAge<=0 && userAge!=null) {
     alert("Unvalid age value")
     userAge = prompt("Enter your age: ")
-    if(userAge==null)
-    break;
 }
 
 let welConf =confirm(" Skip welcome message?")

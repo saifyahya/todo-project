@@ -39,7 +39,7 @@ myArray.push(q3)
 
 const arrModify =()=> {
     for(let i = 0 ; i < myArray.length ; i++)
-    if (myArray[i]==null)
+    if (myArray[i]=="")
     myArray[i]="invalid"
 }
 

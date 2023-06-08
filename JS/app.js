@@ -1,5 +1,5 @@
 
-let userName = prompt("Enter your name: ")
+/*let userName = prompt("Enter your name: ")
 
 let userGender = prompt("Enter your gender: male/female")
 
@@ -21,7 +21,7 @@ if(welConf==false) {
     else{
         alert("Welcome "+userName)
     }
-}
+}*/
 
  let myArray=[]
  
@@ -33,7 +33,7 @@ myArray.push(prompt("Do you like to order your tasks: Yes/No"))
 
 const arrModify =()=> {
     for(let i = 0 ; i < myArray.length ; i++)
-    if (myArray[i]=="")
+    if (myArray[i]!="Yes" && myArray[i]!="No" && myArray[i]!="no" && myArray[i]!="yes")
     myArray[i]="invalid"
 }
 

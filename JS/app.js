@@ -1,5 +1,5 @@
 
-/*let userName = prompt("Enter your name: ")
+let userName = prompt("Enter your name: ")
 
 let userGender = prompt("Enter your gender: male/female")
 
@@ -21,7 +21,7 @@ if(welConf==false) {
     else{
         alert("Welcome "+userName)
     }
-}*/
+}
 
  let myArray=[]
  
